@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.title {
+    color: brown;
+}
+
+html {
+    font-family: 'Lilita One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: brown;
+    font-size: 21px;
+}
+
+.content-section.social {
+    margin: 40px 40px;
+}
+@media screen and (max-width:768) {
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+.content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.image-section {
+    float: none;
+    width: 100%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.content-section .title {
+    text-align: center;
+    font-size: 19px;
+}
+
+.content-section .social {
+    text-align: center;
+}
